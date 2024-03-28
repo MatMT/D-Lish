@@ -15,11 +15,11 @@ return [
     |
     */
 
-    'paths' => ['sanctum/csrf-cookie', 'https://dlish-test.net/*', 'https://react-d-lish.vercel.app/*'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie',],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://react-d-lish.vercel.app/*'],
 
     'allowed_origins_patterns' => [],
 
