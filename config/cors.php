@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie', 'https://dlish-test.net/*', 'https://react-d-lish.vercel.app/*'],
+    'paths' => ['sanctum/csrf-cookie', 'https://dlish-test.net/*', 'https://react-d-lish.vercel.app/*'],
 
     'allowed_methods' => ['*'],
 
